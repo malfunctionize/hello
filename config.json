@@ -1,0 +1,21 @@
+{
+  "character": "a kangaroo",
+  "llama": {
+    "path": "/Users/x/Projects/llama.cpp",
+    "model": "/Users/x/Documents/ggml-q4/models/alpaca-7B-ggml/ggml-model-q4_0.bin"
+  },
+  "automatic1111": {
+    "url": "http://127.0.0.1:7860/sdapi/v1/txt2img",
+    "cfg_scale": 7,
+    "steps": 30,
+    "models": [
+      "uberRealisticPornMerge_urpmv13.safetensors",
+      "clarity_2.safetensors",
+      "chilloutmix_NiPrunedFp32Fix.safetensors",
+      "retrodiffusion2.ckpt"
+    ]
+  },
+  "blog": {
+    "url": "http://127.0.0.1:3017/upload"
+  }
+}

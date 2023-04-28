@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "config",
+  "type": "object",
+  "properties": {
+    "character": {
+      "type": "string"
+    },
+    "llama": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        }
+      }
+    },
+    "automatic1111": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "cfg_scale": {
+          "type": "number"
+        },
+        "steps": {
+          "type": "integer"
+        }
+      }
+    },
+    "blog": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
